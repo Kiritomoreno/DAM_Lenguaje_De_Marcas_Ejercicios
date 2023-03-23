@@ -13,3 +13,10 @@
 	font-family: Verdana;
 	background-color: pink;
 }
+
+/*Creamos ID="primeracolumna". Los datos de la primera columna le aplicamos el fondo hotpink*/
+#primeracolumna{
+	background-color: hotpink;
+	color: black;
+	
+}
