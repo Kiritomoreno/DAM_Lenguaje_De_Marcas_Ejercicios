@@ -1,4 +1,4 @@
-/* Creamos class= Titulo en el archivo html,dentro de la etiqueta h1 */
+/* Creamos class= "Titulo" en el archivo html,dentro de la etiqueta h1 */
 
 .titulo {
 	background-color: slateblue;
@@ -7,4 +7,9 @@
 	padding: 10px;
 }
 
-
+/*creamos ID= "encabezadostabla" en el archivo html,dentro de la etiqueta <table><tr><th>*/
+#encabezadostabla{
+	color:black;
+	font-family: Verdana;
+	background-color: pink;
+}
