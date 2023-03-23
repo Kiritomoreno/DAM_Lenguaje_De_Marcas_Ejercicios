@@ -20,3 +20,17 @@
 	color: black;
 	
 }
+/*Creamos la id= "anchoportada" para aplicar el ancho de la portada*/
+#anchoportada{
+	width: 250px;
+	box-shadow: 2px;
+	
+}
+
+/*Creamos la id="tabla". ingresamos ancho,sombra y tabla separada de la portada 10px*/
+#tabla{
+	margin-top: 10px;
+	width: 250px;
+	box-shadow: 2px;
+	
+}
