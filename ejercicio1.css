@@ -7,13 +7,6 @@
 	padding: 10px;
 }
 
-/*creamos ID= "encabezadostabla" en el archivo html,dentro de la etiqueta <table><tr><th>*/
-#encabezadostabla{
-	color:black;
-	font-family: Verdana;
-	background-color: pink;
-}
-
 /*Creamos ID="primeracolumna". Los datos de la primera columna le aplicamos el fondo hotpink*/
 #primeracolumna{
 	background-color: hotpink;
@@ -21,16 +14,22 @@
 	
 }
 /*Creamos la id= "anchoportada" para aplicar el ancho de la portada*/
-#anchoportada{
+.anchoportada{
 	width: 250px;
 	box-shadow: 2px;
 	
 }
 
 /*Creamos la id="tabla". ingresamos ancho,sombra y tabla separada de la portada 10px*/
-#tabla{
+.tabla{
 	margin-top: 10px;
 	width: 250px;
 	box-shadow: 2px;
 	
+}
+/*Usamos la class= tabla  y la le pedimos que si tiene este elemento <th> le aplicamos este diseño*/
+.tabla th{
+	color:black;
+	font-family: Verdana;
+	background-color: pink;
 }
