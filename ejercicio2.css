@@ -7,5 +7,14 @@
 	padding: 10px;
 }
 
-/* Estilo ejercicio 2 */
+/*Creamos la class="form_diseño"en el html y modificamos el tipo de texto*/
+.form_diseño{
+	font-family: Calibri;
+}
+
+/*Modificamos el tipo de texto a los encabezados de las agrupaciones*/
+.form_diseño legend{
+	font-family: Verdana;
+}
+
 
