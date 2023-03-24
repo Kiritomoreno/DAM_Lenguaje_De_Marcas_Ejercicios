@@ -4,10 +4,69 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ejercicio 2</title>
+	<link rel="stylesheet" href="ejercicio2.css">
 </head>
 <body>
 	<h1 class="titulo">Ejercicio 2. Venta de entradas</h1>
+	<!--Creamos el formulario con sus titulos legend y labels(opciones para escoger) -->
+	<form action="/ejecicio2.js" method="get" target="_blank" name="Mi_Formulario">
+		<fieldset form="Mi_Formulario" id="ticketes">
+			<legend>Entradas </legend>
+			<!--En el siguiente apartado ingresamos el label con un select y sus opciones a escoger-->
+			<label for="Numero de entradas">Número de entradas:</label>
+			<select name="Numero de entradas" id="Numero de entradas">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select><br><br>
 
+			<label for="Categoría">Categoría:</label>
+			<select name="Categoría" id="Categoría">
+				<option value="Gold">Gold</option>
+				<option value="Silver">Silver</option>
+				<option value="Bronce">Bronce</option>
+			</select><br><br>
+		</fieldset>
+		<fieldset form="Mi_Formulario" id="personales">
+			<legend>Datos del comprador</legend>
+			<!--Ingresamos label con un input de tipo texto y su correspondiente id y name -->
+			<label for="Nombre">Nombre:</label>
+			<input type="text" id="Nombre" name="Nombre"><br><br>
+		
+			<label for="Losapellidos">Apellidos:</label>
+			<input type="text" id="LosApellidos" name="LosApellidos"><br><br>
+		
+			<label for="E-Mail">E-Mail:</label>
+			<input type="text" id="E-Mail" name="E-Mail"><br><br>
+			
+			<!--Ingresamos label y un input de tipo date para que nos de alegir o ingresar por fecha,tambien su correspodiente id y name-->
+			<label for="Nacimiento">Fecha de nacimiento:</label>
+			<input type="date" id="Nacimiento" name="Nacimiento">
+		</fieldset>
+
+		<fieldset form="Mi_Formulario" id="pagos" alig="center">
+			<legend>Pago</legend>
+			
+			<p>Selecciona método de pago:</p>
+
+			<!--Ingresamos los labels y inputs de tipo radio(paraque nos deje seleccionar una opción(un circulo para ser exactos))-->
+			<label for="1">Visa</label>
+			<input type="radio" name="pago" id="1" value="1"><br>
+
+			<label for="2">Mastercard</label>
+			<input type="radio" name="pago" id="2" value="2"><br>
+
+			<label for="3">Paypal</label>
+			<input type="radio" name="pago" id="3" value="3"><br>
+
+			<label for="4">Bizum</label>
+			<input type="radio" name="pago" id="4" value="4"><br>
+		
+			
+		</fieldset>
+	</form>
 
 </body>
 </html>
