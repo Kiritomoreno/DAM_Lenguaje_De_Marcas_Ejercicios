@@ -35,7 +35,14 @@
 	font-family: Verdana;
 	background-color: pink;
 }
+
 /*Agregamos a la tabla y los elementos un borde,grosor de 3px y color red */
 .tabla, .tabla th, .tabla td {
 	border: 3px solid  red;
+}
+
+/*Realizamos la separación de 5px entre el contenido de la tabla y el borde izquierdo y cambiamos el tipo de letra*/
+.tabla td, .tabla th {
+	padding-left: 5px;
+	font-family: Impact;
   }
