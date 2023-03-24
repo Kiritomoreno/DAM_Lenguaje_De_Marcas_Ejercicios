@@ -11,6 +11,7 @@
 #primeracolumna{
 	background-color: hotpink;
 	color: black;
+	font-weight: bold;
 	
 }
 /*Creamos la id= "anchoportada" para aplicar el ancho de la portada*/
