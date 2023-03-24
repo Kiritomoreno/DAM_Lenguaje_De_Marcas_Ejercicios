@@ -59,3 +59,11 @@
 .tabla th:nth-child(3) {
 	width: 25%;
 }
+
+/*Agregamos una class="reproduciendo" para identificar una fila de forma especial */
+.reproduciendo {
+	background-color: yellow;
+	font-weight: bold;
+	color: red;
+	box-shadow: 0 0 2px black;
+}
