@@ -17,4 +17,9 @@
 	font-family: Verdana;
 }
 
+/*Creamos la class="img_diseño" en el html y modificamos su ancho */
+.img_diseño img:nth-child(1){
+	width: 50px;
+}
+
 
