@@ -22,4 +22,11 @@
 	width: 50px;
 }
 
+/*Creamos la class="boton" en el html y modificamos su borde,fondo,texto y tamaño del texto*/
+.boton{
+	padding: 25px;
+	background-color: darkblue;
+	color: skyblue;
+	font-size: 2em;
+}
 
