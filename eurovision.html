@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="/">
+<html>
+<head>
+	<title>Eurovision</title>
+</head>
+<body>
+	<h1>Eurovision</h1>
+	<table border="1">
+		<tr bgcolor="#9acd32">
+			<th>Pais</th>
+			<th>Titulo Original</th>
+			<th>Titulo Castellano</th>
+			<th>Artista</th>
+			<th>Idioma</th>
+			<th>Video</th>
+		</tr>
+		<xsl:for-each select="eurovision/candidatura">
+			<tr>
+				<td><xsl:value-of select="pais"/></td>
+				<td><xsl:value-of select="titulo_original"/></td>
+				<td><xsl:value-of select="titulo_castellano"/></td>
+				<td><xsl:value-of select="artista"/></td>
+				<td><xsl:value-of select="idioma"/></td>
+				<td><a href="https://www.youtube.com/watch?v={video}"><xsl:value-of select="video"/></a></td>
+			</tr>
+		</xsl:for-each>
+	</table>
+</body>
+</html>
+</xsl:template>
+
+</xsl:stylesheet>

@@ -1,10 +1,9 @@
-﻿<!-- Completa el encabezado -->
+<?xml-stylesheet type="text/xsl" href="eurovision.xslt"?>
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="eurovision.xslt"?>	
 <eurovision>
+   <!-- Insertamos el contenido del XML -->
+
 	<candidatura>
-		<!-- Cada una de las filas de la tabla sera una candidatura. Continua desde aqui -->
-		
     	<pais>Alemania</pais>
     	<titulo_original>Rockstars</titulo_original>
     	<titulo_castellano>Estrellas del rock</titulo_castellano>
@@ -49,4 +48,5 @@
     	<video>UiEGVYOruLk</video>
   	</candidatura>
 	
+
 </eurovision>
