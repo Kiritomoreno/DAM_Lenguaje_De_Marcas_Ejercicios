@@ -1,10 +1,8 @@
 ﻿<!-- Completa el encabezado -->
-
+<?xml version="1.0" encoding="UTF-8"?>
 <eurovision>
 	<candidatura>
 		<!-- Cada una de las filas de la tabla sera una candidatura. Continua desde aqui -->
-		<?xml version="1.0" encoding="UTF-8"?>
-  		
     	<pais>Alemania</pais>
     	<titulo_original>Rockstars</titulo_original>
     	<titulo_castellano>Estrellas del rock</titulo_castellano>
