@@ -1,6 +1,7 @@
 <?xml-stylesheet type="text/xsl" href="eurovision.xslt"?>
-<?xml version="1.0" encoding="UTF-8"?>
-<eurovision>
+<?eurovision.xslt version="1.0" encoding="UTF-8"?>
+
+<eurovision xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
    <!-- Insertamos el contenido del XML -->
 
 	<candidatura>
@@ -17,7 +18,7 @@
     	<titulo_original>SloMo</titulo_original>
     	<titulo_castellano>Cámara lenta</titulo_castellano>
     	<artista>Chanel</artista>
-    	<idioma>Español<br>Ingles</idioma>
+    	<idioma>Español\n Ingles</idioma>
     	<video>TO2yGXVQCfo</video>
   	</candidatura>
 
@@ -34,7 +35,7 @@
     	<pais>Italia</pais>
     	<titulo_original>Brividi</titulo_original>
     	<titulo_castellano>Escalofríos</titulo_castellano>
-    	<artista>Mahmood & Blanco</artista>
+    	<artista>Mahmood y Blanco</artista>
     	<idioma>Italiano</idioma>
     	<video>4MgMhzfUmiA</video>
   	</candidatura>
