@@ -9,7 +9,9 @@
 <body>
 	<h1 class="titulo">Ejercicio 2. Venta de entradas</h1>
 	<!--Creamos el formulario con sus titulos legend y labels(opciones para escoger) -->
-	<form class="form_diseño" action="/ejecicio2.js" method="get" target="_blank" name="Mi_Formulario">
+	<!--Modificamos la etiqueta form en la parte de action(ponemos el link que redigirá a nuestro archivo)-->
+
+	<form class="form_diseño" action="file:///C:/Users/KHIRANN/Documents/DAM-Desarrollo%20de%20aplicaiones%20multiplataforma/lenguaje_de_marcas_Ejer/Pac_Desarrollo/ejercicio2b.html" method="get" target="_blank" name="Mi_Formulario">
 		<fieldset form="Mi_Formulario" id="ticketes">
 			<legend>Entradas </legend>
 			<!--En el siguiente apartado ingresamos el label con un select y sus opciones a escoger-->
@@ -39,7 +41,7 @@
 			<label for="Nombre">Nombre:</label>
 			<input type="text" id="Nombre" name="Nombre"><br><br>
 		
-			<label for="Losapellidos">Apellidos:</label>
+			<label for="LosApellidos">Apellidos:</label>
 			<input type="text" id="LosApellidos" name="LosApellidos"><br><br>
 		
 			<label for="E-Mail">E-Mail:</label>
@@ -83,12 +85,13 @@
 			</label><br><br>
 		
 			<!--Agregamos la etiqueta de casilla de verificación-->
-			<input type="checkbox" name="nombre" id="5" value="valor">
+			<input type="checkbox" name="nombre" id="5" value="valor" required>
 			<label for="5">Acepto las condiciones de compra</label><br><br>
 
 			<!--Agregamo el boton (proceder el pago)-->
-			<button class="boton" type="submit" form="Mi_Formulario" value="Proceder al pago">Proceder al pago</button>
+			<button class="boton" id="miBoton">Proceder al pago</button>
 
+	
 		</fieldset>
 	</form>
 
